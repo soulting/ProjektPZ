@@ -1,0 +1,47 @@
+.messages-container {
+  display: none;
+  width: 400px;
+  height: 450px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+  right: 0px;
+  top: 80px;
+  position: fixed;
+}
+
+.messages-header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.messages-list {
+  flex-grow: 1;
+  padding: 10px;
+  overflow-y: auto; /* Dodaj pasek przewijania, jeśli zawartość jest dłuższa niż kontener */
+}
+
+.message {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+}
+
+.message-time {
+  border-bottom: 3px solid #000000;
+  margin-bottom: 5px;
+  font-size: 11px;
+}
+
+.message {
+  border-bottom: 1px solid #ccc;
+}

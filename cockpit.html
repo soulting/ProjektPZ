@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Panel</title>
+    <link rel="stylesheet" href="styles/user_profile.css" />
+    <link rel="stylesheet" href="styles/nav_bar.css" />
+    <link rel="stylesheet" href="styles/side_bar.css" />
+    <link rel="stylesheet" href="styles/lessons.css" />
+    <link rel="stylesheet" href="styles/button.css" />
+    <link rel="stylesheet" href="styles/menu.css" />
+    <link rel="stylesheet" href="styles/message.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="nav-bar">
+        <div class="element-1">
+          <img class="wizard-icon" src="icons/wizard.png" />
+          <img class="speach-icon" src="icons/left.png" />
+          <img id="bubble" class="speach-icon" src="icons/0.png" />
+          <img class="speach-icon" src="icons/right.png" />
+        </div>
+        <div class="element-2">
+          <div class="notifications-container">
+            <img class="notifications-icon" src="icons/ancient-scroll.png" />
+            <div class="notifications-number">0</div>
+          </div>
+          <div class="menu-container">
+            <img class="my-channel-icon" src="profil/a.png" />
+            <img class="menu-arrow" src="icons/download.png" />
+          </div>
+        </div>
+      </nav>
+      <div class="user-menu">
+        <ul>
+          <li><button class="ustawienia">ustawienia</button></li>
+          <li><button class="wyloguj">wyloguj</button></li>
+        </ul>
+      </div>
+      <div class="messages-container">
+        <div class="messages-header">Wiadomości</div>
+        <div class="messages-list"></div>
+      </div>
+    </header>
+    <main>
+      <div class="user-info">
+        <h2>Informacje o użytkowniku</h2>
+        <p>Username:</p>
+        <p>Email:</p>
+        <p>Postęp:</p>
+        <p>Ostatnie wejście:</p>
+        <p>Data utworzenia:</p>
+        <button class="change-password-button">Zmień hasło</button>
+        <button class="back-button">Powrót do lekcji</button>
+        <button class="logout-button">Wyloguj</button>
+      </div>
+    </main>
+    <script src="scrypts/navbar.js"></script>
+    <script src="scrypts/cockpit.js"></script>
+  </body>
+</html>

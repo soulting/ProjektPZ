@@ -1,0 +1,36 @@
+.control-buttons {
+  padding: 20px;
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  margin-left: 120px; 
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex; 
+  justify-content: space-between; /
+}
+
+.prev-button,
+.next-button,
+.quiz-button {
+  height: 50px;
+  background-image: linear-gradient(to right, #f6d365 0%, #fda085 51%, #f6d365 100%);
+  flex: 1 1 auto;
+  margin: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  border-width: 0px;
+  
+}
+
+.prev-button:hover,
+.next-button:hover,
+.quiz-button:hover {
+  background-position: right center;
+}

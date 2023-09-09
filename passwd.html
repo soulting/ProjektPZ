@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Zmiana hasła</title>
+    <link rel="stylesheet" href="styles/login-sign-up.css" />
+  </head>
+  <body>
+    <div class="login-container">
+      <img class="wizard-icon" src="icons/wizard.png" />
+      <h1>Wpisz dwa razy swoje tajne hasło</h1>
+      <form>
+        <input
+          id="current-password"
+          type="password"
+          placeholder="hasło"
+          class="login-input"
+        />
+        <input
+          id="second-password"
+          type="password"
+          placeholder="nowe hasło"
+          class="login-input"
+        />
+        <input
+          id="first-password"
+          type="password"
+          placeholder="powtórz hasło"
+          class="login-input"
+        />
+        <button type="submit" class="login-button">Zmień hasło</button>
+      </form>
+    </div>
+    <script src="scrypts/passwd.js"></script>
+  </body>
+</html>

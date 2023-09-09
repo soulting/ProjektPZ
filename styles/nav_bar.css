@@ -1,0 +1,82 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  height: 80px;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  background-color: white;
+  border-bottom-width: 1px;
+  border-bottom-color: rgb(240, 240, 240);
+  border-bottom-style: solid;
+  z-index: 100;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.element-1 {
+  display: flex;
+  align-items: center;
+}
+
+.wizard-icon {
+  padding-left: 15px;
+  height: 70px;
+}
+
+.element-2 {
+  display: flex;
+  width: 100px;
+  margin-right: 20px;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+}
+
+.notifications-container {
+  position: relative;
+  right: 20px;
+}
+
+.notifications-number {
+  position: absolute;
+  font-size: 10px;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-radius: 15px;
+  background-color: rgb(201, 0, 0);
+  color: white;
+  top: 0px;
+  right: -5px;
+}
+
+.notifications-icon {
+  height: 33px;
+}
+
+.menu-container {
+  display: flex;
+  padding: 5px;
+}
+
+.my-channel-icon {
+  height: 33px;
+}
+.menu-arrow {
+  height: 20px;
+  margin: 10px;
+}
+
+.speach-icon {
+  top: 3px;
+  height: 80px;
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Grafomania</title>
+    <link rel="stylesheet" href="styles/nav_bar.css" />
+    <link rel="stylesheet" href="styles/side_bar.css" />
+    <link rel="stylesheet" href="styles/lessons.css" />
+    <link rel="stylesheet" href="styles/button.css" />
+    <link rel="stylesheet" href="styles/menu.css" />
+    <link rel="stylesheet" href="styles/message.css" />
+  </head>
+  <body>
+    <header>
+      <div>
+        <nav class="nav-bar">
+          <div class="element-1">
+            <img class="wizard-icon" src="icons/wizard.png" />
+            <img class="speach-icon" src="icons/left.png" />
+            <img id="bubble" class="speach-icon" src="icons/0.png" />
+            <img class="speach-icon" src="icons/right.png" />
+          </div>
+          <div class="element-2">
+            <div class="notifications-container">
+              <img class="notifications-icon" src="icons/ancient-scroll.png" />
+              <div class="notifications-number">0</div>
+            </div>
+            <div class="menu-container">
+              <img class="my-channel-icon" src="profil/a.png" />
+              <img class="menu-arrow" src="icons/download.png" />
+            </div>
+          </div>
+        </nav>
+        <nav class="side-bar">
+          <div class="sidebar-section">
+            <div class="sidebar-link">
+              <img class="sidebar-icons" src="icons/tower.png" />
+              <div>Poziom 1</div>
+            </div>
+            <div class="sidebar-link-lesson">
+              <img class="mini-sidebar-icons" src="icons/mini-tower.png" />
+              <div class="lesson">Lesson 1</div>
+            </div>
+            <div class="sidebar-link-lesson">
+              <img class="mini-sidebar-icons" src="icons/mini-tower.png" />
+              <div class="lesson">Lesson 2</div>
+            </div>
+            <div class="sidebar-link">
+              <img class="sidebar-icons" src="icons/tower.png" />
+              <div>Poziom 2</div>
+            </div>
+            <div class="sidebar-link-lesson">
+              <img class="mini-sidebar-icons" src="icons/mini-tower.png" />
+              <div class="lesson">Lesson 3</div>
+            </div>
+            <div class="sidebar-link-lesson">
+              <img class="mini-sidebar-icons" src="icons/mini-tower.png" />
+              <div class="lesson">Lesson 4</div>
+            </div>
+            <div class="sidebar-link">
+              <img class="sidebar-icons" src="icons/castle.png" />
+              <div>Poziom 3</div>
+            </div>
+            <div class="sidebar-link-lesson">
+              <img class="mini-sidebar-icons" src="icons/mini-tower.png" />
+              <div class="lesson">Lesson 5</div>
+            </div>
+            <div class="sidebar-link-lesson">
+              <img class="mini-sidebar-icons" src="icons/mini-tower.png" />
+              <div class="lesson">Lesson 6</div>
+            </div>
+          </div>
+        </nav>
+        <div class="user-menu">
+          <ul>
+            <li><button class="ustawienia">ustawienia</button></li>
+            <li><button class="wyloguj">wyloguj</button></li>
+          </ul>
+        </div>
+        <div class="messages-container">
+          <div class="messages-header">Wiadomości</div>
+          <div class="messages-list"></div>
+        </div>
+        <main></main>
+        <div class="control-buttons">
+          <button class="prev-button">poprzednia lekcja</button>
+          <button class="quiz-button">Zadania</button>
+          <button class="next-button">następna lekcja</button>
+        </div>
+      </div>
+    </header>
+    <script src="scrypts\base.js"></script>
+    <script src="scrypts\navbar.js"></script>
+  </body>
+</html>
